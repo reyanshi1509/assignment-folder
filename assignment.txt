@@ -1,0 +1,145 @@
+                                                                             ASSIGNMENT( STATISTICS )
+
+
+
+1) For the given data find mean, standard deviation and variance ?
+
+New Dataset:
+[10, 20, 30, 40, 50, 60, 70, 80] 
+
+# mean:
+
+   Mean = sum of all observations/ total number of observations
+        = 10+20+30+40+50+60+70+80 / 8 
+        = 360/8
+        = 45 
+
+# variance :
+
+        = [(10-45)^2 + (20-45)^2 + (30-45)^2 + (40-45)^2 + (50-45)^2 + (60-45)^2 + (70-45)^2 + (80-45)^2] / 8
+        = (1225 + 625 + 225 + 25 + 25 + 225 + 625 + 1225) / 8
+        = 4200 / 8
+        = 525
+
+# standard deviation:
+
+        = square root of variance
+        = square root of (525)
+        ≈ 22.91
+
+
+
+2) From  the  given  data,  take  a  sample  and  find  mean,  standard  deviation and  variance  for population  ?
+
+
+Given Data:
+                   [10,20,30,40,50,60,70,80,90,100]
+
+Sample Taken:
+                   [30,40,50,60,70]
+
+n = 5
+
+ # Mean :
+              = (30 + 40 + 50 + 60 + 70) / 5
+              = 250 / 5
+              = 50
+
+ # Population Variance :
+            = [(30-50)^2 + (40-50)^2 + (50-50)^2 + (60-50)^2 + (70-50)^2] / 5 
+             = [400 + 100 + 0 + 100 + 400] / 5
+             = 1000 / 5
+             = 200
+
+ # Population Standard Deviation :
+             = √200
+     ≈ 14.14
+
+
+3) THEORY TASK : 
+
+Estimating  mean  means  finding  the  average  of  a population  using  sample data.
+
+Formula:
+Mean (x_bar) = (sum of x) / n
+
+Where:
+sum of x = total of all sample values
+n = number of observations
+
+Explanation:
+When  we  cannot  collect  data  from  the  whole  population,  we  take  a  sample.
+The  sample  mean (x_bar)  is  used  to  estimate  the  population  mean.
+
+Example:
+Sample Data: [30, 40, 50, 60, 70]
+
+Mean (x_bar):
+= (30 + 40 + 50 + 60 + 70) / 5
+= 250 / 5
+= 50
+
+Conclusion:
+Estimated population mean = 50
+
+4) THEORY TASK: VALIDATE HYPOTHESIS ?
+
+  hypothesis testing is a statistical method to check a claim using sample data.
+
+
+STEPS:
+ 
+  1) form hypothesis
+         
+         HO = no significant difference
+         H1 = significant difference 
+
+  2) choose significance level
+
+         alpha = 0.05
+
+  3) select test 
+   
+         Example: t-test 
+
+  4) calculate test value 
+
+
+  5) Decision Rule 
+
+        if p-value <= alpha then reject HO
+        
+        if p-value > alpha then do not reject HO 
+
+  
+
+5) ONE SAMPLE t-TEST
+
+Given:
+     
+    Sample mean = 75
+    Population mean  = 70
+    Standard deviation  = 10
+    Sample size (n) = 25
+
+Hypothesis:
+    HO: population mean  = 70
+    H1: population mean  ≠ 70
+
+Formula:
+    t = (difference between sample mean and population mean) divided by (standard deviation divided by square root of sample size)
+
+
+Calculation:
+    t = (75 - 70) / (10 / √25)
+      = 5 / (10 / 5)
+      = 5 / 2
+      = 2.5
+ 
+Conclusion:
+   Since  calculated  t  is  large,  we  reject HO.
+
+Final Result:
+The  average  marks  are  significantly different  from  70.
+
+ 
